@@ -1,8 +1,8 @@
-/*Exercício: 
+/*ExercÃ­cio: 
 Com base na altura de uma pessoa, construa um algoritmo que calcule 
-seu peso ideal, usando a seguinte fórmula: (72.7 x altura) – 58.
+seu peso ideal, usando a seguinte fÃ³rmula: (72.7 x altura) â€“ 58.
 Fonte: https://www.youtube.com/watch?v=ZTONYUDebgA&list=PLWinCsaFzrrEjo5QqWNRNVJnZNNjIrU3w&index=8&ab_channel=RodrigoSilva
-Créditos: Prof.Rodrigo Silva.*/
+CrÃ©ditos: Prof.Rodrigo Silva.*/
 
 programa {
     real pesoCalculo=72.7
@@ -17,6 +17,6 @@ programa {
 	    escreva("\nQual a sua altura?")
 	    leia(altura)
 	    peso(altura)
-		escreva ("O seu peso ideal é:\n"+pesoIdeal+"Kg")
+		escreva ("O seu peso ideal Ã©:\n"+pesoIdeal+"Kg")
 	}
 }
